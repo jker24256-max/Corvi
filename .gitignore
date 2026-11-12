@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.corvi/
+.freebuff/
+.DS_Store
+.env
+.env.*
+*.db
+*.sqlite
+*.sqlite3
+Backups/
+Corvi.app/
+CorviDesktop
+*.icns
+*.log
+

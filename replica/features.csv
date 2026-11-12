@@ -1,0 +1,33 @@
+feature,area,priority,original,clone,notes
+New task greeting screen,navigation,must,yes,yes,Centered composer and ready state.
+Workspace selector,navigation,must,yes,yes,Saved workspaces endpoint and GUI switcher reload the active workspace and recent tasks.
+Recent task list,navigation,must,yes,yes,SQLite persistence and API plus sidebar rendering and task selection are wired.
+Pinned task list,navigation,should,yes,partial,Pin action and pinned ordering are supported; dedicated pinned section remains.
+Project/folder selection,workspace,must,yes,yes,Native macOS folder selection and WebKit workspace rebinding reset and reload task context.
+Task conversation,task,must,yes,yes,Prompt and response persistence plus conversation restoration are wired.
+Automatic model selection,models,must,yes,yes,Choose an installed Ollama model by task type.
+Manual model selector,models,should,yes,yes,Allow explicit model choice.
+Council mode,models,should,yes,yes,Consult multiple local models and synthesize.
+Streaming response,task,must,yes,yes,WebKit reads newline-delimited Ollama events and appends tokens live; cancellation records an interrupted run.
+Agent status states,activity,must,yes,yes,Running ready blocked needs-input error and interrupted states are persisted and rendered through run/activity records.
+Tool activity cards,activity,must,yes,yes,Expandable persisted cards show tool names arguments statuses and detailed results for reads edits commands and tests.
+Terminal output,activity,must,yes,yes,Command stream emits live output lines and final exit code/summary events.
+File diff viewer,review,must,yes,yes,Review API exposes proposed and current-file unified diffs for edit/write actions.
+Approval for edits and commands,review,must,yes,yes,Tool-call actions create persisted records and approved actions execute through Corvi's local tool functions.
+Reject and retry action,review,should,yes,yes,Deny records feedback and retry creates a fresh pending approval.
+Outputs panel,artifacts,should,yes,partial,Panel now reads persisted file report terminal and diff artifacts; artifact creation wiring remains.
+Sources panel,research,should,yes,partial,Research endpoint stores returned URLs as source artifacts; source rendering remains.
+Session persistence,task,must,yes,yes,Local SQLite store and recent-task conversation restore are wired.
+Search tasks,navigation,could,yes,yes,GUI search uses the local task search endpoint.
+Task rename,navigation,could,yes,yes,GUI rename action updates the local task title.
+Task archive,navigation,could,yes,yes,GUI archive action hides the task without deleting it.
+Animated pet overlay,pet,should,yes,partial,WebKit displays the crow sprite; native overlay remains.
+Pet show hide,pet,should,yes,yes,Pet visibility persists locally and toggles on double-click.
+Pet state mapping,pet,should,yes,partial,Distinct sprite-sheet positions are assigned to running ready blocked needs-input error and interrupted states; final artwork tuning remains.
+Pet size and position,pet,could,yes,yes,Pet settings control size and right/bottom position with local persistence.
+Reduced motion support,pet,could,yes,yes,Pet animation transition is disabled when the OS requests reduced motion.
+Permissions settings,settings,must,yes,yes,Dedicated GUI form edits edit_file write_file run_bash and MCP policies.
+MCP tool management,integrations,should,yes,partial,Integration panel lists configured servers/tools and the existing safe enable/disable flow remains.
+Plugin and skill discovery,integrations,could,yes,partial,GUI integration endpoint lists local skills/plugins and supports reload; dedicated view remains.
+Cloud multi-device sync,cloud,skip,yes,skip,Not part of the local-first Corvi target.
+OpenAI private backend/cloud infrastructure,platform,skip,yes,skip,Use Ollama and public APIs only.

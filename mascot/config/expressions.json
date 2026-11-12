@@ -1,0 +1,18 @@
+{
+  "idle":        {"pose": "idle",        "eyes": "open", "effect": "none",     "motion": "breathe",      "label": "relaxed"},
+  "happy":       {"pose": "idle",        "eyes": "open", "effect": "sparkle",  "motion": "bob",          "label": "happy"},
+  "excited":     {"pose": "greeting",    "eyes": "open", "effect": "sparkle",  "motion": "hop",          "label": "excited"},
+  "curious":     {"pose": "exploring",   "eyes": "open", "effect": "question", "motion": "sway",         "label": "curious"},
+  "thinking":    {"pose": "thinking",    "eyes": "open", "effect": "thought",  "motion": "breathe",      "label": "thinking"},
+  "focused":     {"pose": "coding",      "eyes": "open", "effect": "none",     "motion": "typing",       "label": "focused"},
+  "confused":    {"pose": "error",       "eyes": "open", "effect": "question", "motion": "shake_small",  "label": "confused"},
+  "surprised":   {"pose": "idle",        "eyes": "open", "effect": "bang",     "motion": "hop_small",    "label": "surprised"},
+  "proud":       {"pose": "sitting",     "eyes": "open", "effect": "star",     "motion": "breathe",      "label": "proud"},
+  "sleepy":      {"pose": "idle",        "eyes": "half", "effect": "zzz",      "motion": "slow_breathe", "label": "sleepy"},
+  "sad":         {"pose": "error",       "eyes": "open", "effect": "dots",     "motion": "slow_breathe", "label": "sad"},
+  "determined":  {"pose": "debugging",   "eyes": "open", "effect": "none",     "motion": "typing",       "label": "determined"},
+  "celebrating": {"pose": "celebrating", "eyes": "open", "effect": "confetti", "motion": "hop",          "label": "celebrating"},
+  "working":     {"pose": "building",    "eyes": "open", "effect": "none",     "motion": "typing",       "label": "working"},
+  "listening":   {"pose": "exploring",   "eyes": "open", "effect": "none",     "motion": "sway",         "label": "listening"},
+  "error":       {"pose": "error",       "eyes": "open", "effect": "bang_red", "motion": "shake",        "label": "worried"}
+}

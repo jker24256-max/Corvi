@@ -1,0 +1,15 @@
+{
+  "idle":        {"label": "standing idle", "motion": "breathe"},
+  "sitting":     {"label": "sitting",       "motion": "breathe"},
+  "coding":      {"label": "coding",        "motion": "typing"},
+  "exploring":   {"label": "exploring",     "motion": "sway"},
+  "thinking":    {"label": "thinking",      "motion": "breathe"},
+  "reading":     {"label": "reading",       "motion": "page"},
+  "building":    {"label": "building",      "motion": "typing"},
+  "debugging":   {"label": "debugging",     "motion": "typing"},
+  "celebrating": {"label": "celebrating",   "motion": "hop"},
+  "sleeping":    {"label": "sleeping",      "motion": "slow_breathe"},
+  "greeting":    {"label": "greeting",      "motion": "breathe"},
+  "error":       {"label": "concerned",     "motion": "breathe"},
+  "front":       {"label": "portrait",      "motion": "breathe"}
+}

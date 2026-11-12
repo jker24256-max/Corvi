@@ -1,0 +1,194 @@
+{
+ "APP_READY": {
+  "expression": "happy",
+  "pose": "greeting",
+  "activity": "Saying hi",
+  "priority": "high",
+  "hold": 6,
+  "pulse": "hop"
+ },
+ "USER_INPUT": {
+  "expression": "listening",
+  "pose": "exploring",
+  "activity": "Listening",
+  "priority": "low",
+  "hold": 0
+ },
+ "AI_REASONING": {
+  "expression": "thinking",
+  "pose": "thinking",
+  "activity": "Thinking",
+  "priority": "low",
+  "hold": 0
+ },
+ "AI_RESPONDING": {
+  "expression": "happy",
+  "pose": "idle",
+  "activity": "Answering",
+  "priority": "low",
+  "hold": 0
+ },
+ "FILE_READING": {
+  "expression": "curious",
+  "pose": "reading",
+  "activity": "Reading {target}",
+  "priority": "low",
+  "hold": 0
+ },
+ "FILE_WRITING": {
+  "expression": "focused",
+  "pose": "coding",
+  "activity": "Writing {target}",
+  "priority": "low",
+  "hold": 0
+ },
+ "COMMAND_STARTED": {
+  "expression": "working",
+  "pose": "building",
+  "activity": "Running {target}",
+  "priority": "low",
+  "hold": 0
+ },
+ "TESTS_STARTED": {
+  "expression": "focused",
+  "pose": "reading",
+  "activity": "Running tests",
+  "priority": "low",
+  "hold": 0
+ },
+ "BUILD_STARTED": {
+  "expression": "working",
+  "pose": "building",
+  "activity": "Building",
+  "priority": "low",
+  "hold": 0
+ },
+ "COMMAND_SUCCESS": {
+  "expression": "proud",
+  "pose": "sitting",
+  "activity": "Command succeeded",
+  "priority": "low",
+  "hold": 4,
+  "pulse": "hop_small"
+ },
+ "COMMAND_FAILED": {
+  "expression": "confused",
+  "pose": "error",
+  "activity": "Hit a snag (exit {code})",
+  "priority": "high",
+  "hold": 9,
+  "pulse": "shake"
+ },
+ "TESTS_PASSED": {
+  "expression": "celebrating",
+  "pose": "celebrating",
+  "activity": "Tests passed",
+  "priority": "high",
+  "hold": 5,
+  "pulse": "hop"
+ },
+ "TESTS_FAILED": {
+  "expression": "confused",
+  "pose": "error",
+  "activity": "Tests failed",
+  "priority": "high",
+  "hold": 9,
+  "pulse": "shake"
+ },
+ "BUILD_SUCCEEDED": {
+  "expression": "excited",
+  "pose": "celebrating",
+  "activity": "Build succeeded",
+  "priority": "high",
+  "hold": 5,
+  "pulse": "hop"
+ },
+ "DEBUG_STARTED": {
+  "expression": "determined",
+  "pose": "debugging",
+  "activity": "Debugging",
+  "priority": "high",
+  "hold": 0
+ },
+ "RETRYING": {
+  "expression": "determined",
+  "pose": "debugging",
+  "activity": "Trying again",
+  "priority": "high",
+  "hold": 0
+ },
+ "TASK_COMPLETED": {
+  "expression": "celebrating",
+  "pose": "celebrating",
+  "activity": "All done",
+  "priority": "high",
+  "hold": 5,
+  "pulse": "hop"
+ },
+ "REPLY_COMPLETED": {
+  "expression": "happy",
+  "pose": "idle",
+  "activity": "Ready",
+  "priority": "low",
+  "hold": 5
+ },
+ "USER_DECLINED": {
+  "expression": "sad",
+  "pose": "error",
+  "activity": "Skipped at your request",
+  "priority": "low",
+  "hold": 6
+ },
+ "INTERRUPTED": {
+  "expression": "surprised",
+  "pose": "idle",
+  "activity": "Stopped",
+  "priority": "high",
+  "hold": 5,
+  "pulse": "hop_small"
+ },
+ "SERVER_ERROR": {
+  "expression": "error",
+  "pose": "error",
+  "activity": "Can't reach the model",
+  "priority": "high",
+  "hold": 12,
+  "pulse": "shake"
+ },
+ "ACHIEVEMENT": {
+  "expression": "excited",
+  "pose": "celebrating",
+  "activity": "Achievement unlocked",
+  "priority": "high",
+  "hold": 5,
+  "pulse": "hop"
+ },
+ "APP_IDLE": {
+  "expression": "sleepy",
+  "pose": "idle",
+  "activity": "Resting",
+  "priority": "low",
+  "hold": 0
+ },
+ "APP_SLEEP": {
+  "expression": "sleepy",
+  "pose": "sleeping",
+  "activity": "Napping",
+  "priority": "low",
+  "hold": 0
+ },
+ "GOODBYE": {
+  "expression": "happy",
+  "pose": "greeting",
+  "activity": "Waving goodbye",
+  "priority": "high",
+  "hold": 0
+ },
+ "TURN_FAILED": {
+  "expression": "confused",
+  "pose": "error",
+  "activity": "Needs a look",
+  "priority": "low",
+  "hold": 10
+ }
+}
